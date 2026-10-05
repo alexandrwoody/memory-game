@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "MasonSerif";
+  src: url("fonts/MasonSerif Regular.ttf") format("truetype");
+  font-display: swap;
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+dialog {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+  line-height: 1;
+  background: var(--background-body, #e1d4c9);
+  /* font-size: 28px; */
+  color: var(--text-dark, #403f3d);
+  font-weight: 700;
+  font-family: "MasonSerif", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0b0c10;
+  background-image: url("./wKNi5tr.png");
+  background-size: cover; /* заполняет весь экран, обрезая лишнее */
+  background-position: center; /* центрирует изображение */
+  background-repeat: no-repeat; /* без повторения */
+  background-attachment: fixed; /* фон не скроллится */
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------- */
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.title {
+  text-align: center;
+  font-size: 5em;
+  color: #eaeaea;
+}
+.card {
+  background-image: url(./img/1/back.jpg);
+  width: 128px;
+  height: 272px;
+  background-size: cover;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  width: 100%;
+  max-width: 100%;
+  font-size: 3em;
+}
