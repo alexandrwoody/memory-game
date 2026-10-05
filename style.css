@@ -54,8 +54,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #0b0c10;
-  background-image: url("./wKNi5tr.png");
+  /* background-color: #0b0c10;
+  background-image: url("./wKNi5tr.png"); */
   background-size: cover; /* заполняет весь экран, обрезая лишнее */
   background-position: center; /* центрирует изображение */
   background-repeat: no-repeat; /* без повторения */
